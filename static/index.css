@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+}
+
+li {
+    list-style: none;
+}
+
+#title {
+
+}
+
+#matrix {
+    width: 250px;
+    height: 500px;
+    border: 1px solid #000000;
+    margin: 0 auto;
+}
+
+#matrix > ul > li {
+    width: 100%;
+    height: 25px;
+}
+
+#matrix > ul > li > ul {
+    display: flex;
+    width: 250px;
+}
+
+#matrix > ul > li > ul > li {
+    width: 25px;
+    height: 25px;
+    border: 1px solid grey;
+}
